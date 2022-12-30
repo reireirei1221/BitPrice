@@ -15,6 +15,7 @@
 		EA77CB7229580096003955F5 /* BitPrice_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77CB7129580096003955F5 /* BitPrice_Watch_AppTests.swift */; };
 		EA77CB7C29580096003955F5 /* BitPrice_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77CB7B29580096003955F5 /* BitPrice_Watch_AppUITests.swift */; };
 		EA77CB7E29580096003955F5 /* BitPrice_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77CB7D29580096003955F5 /* BitPrice_Watch_AppUITestsLaunchTests.swift */; };
+		EA77CB91295939CA003955F5 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77CB90295939CA003955F5 /* Class.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		EA77CB7729580096003955F5 /* BitPrice Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BitPrice Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA77CB7B29580096003955F5 /* BitPrice_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitPrice_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		EA77CB7D29580096003955F5 /* BitPrice_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitPrice_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA77CB90295939CA003955F5 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				EA77CB6029580093003955F5 /* BitPriceApp.swift */,
 				EA77CB6229580093003955F5 /* ContentView.swift */,
+				EA77CB90295939CA003955F5 /* Class.swift */,
 				EA77CB6429580095003955F5 /* Assets.xcassets */,
 				EA77CB6629580095003955F5 /* Preview Content */,
 			);
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA77CB91295939CA003955F5 /* Class.swift in Sources */,
 				EA77CB6329580093003955F5 /* ContentView.swift in Sources */,
 				EA77CB6129580093003955F5 /* BitPriceApp.swift in Sources */,
 			);

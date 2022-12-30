@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var bitCoin = BitCoin()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Image("BitCoin")
+                .resizable()
+                .frame(width: 130.0, height: 130.0)
+                .padding(.bottom, -18)
+            Text(bitCoin.priceLabel)
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            Spacer()
+            Text(bitCoin.updatingLabel)
         }
         .padding()
+        .onAppear{
+            bitCoin.getPrice()
+        }
     }
 }
 
